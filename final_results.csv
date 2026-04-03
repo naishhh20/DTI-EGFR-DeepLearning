@@ -1,0 +1,7 @@
+Metric,ResNet18_CNN,RandomForest
+Accuracy,0.9197,0.9591
+Precision,0.9647,0.9692
+Recall,0.9376,0.9819
+F1-Score,0.951,0.9755
+ROC-AUC,0.9605,0.9865
+PR-AUC,0.9913,0.997
