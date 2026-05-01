@@ -1,0 +1,58 @@
+# ================================
+# DTI EGFR Project — .gitignore
+# ================================
+
+# Large model files (upload separately or use Git LFS)
+*.pth
+*.pkl
+*.pt
+*.h5
+
+# Dataset files (too large for GitHub)
+*.tsv
+*.csv.gz
+data/
+datasets/
+molecular_images/
+
+# Results CSVs with raw data (keep PNGs, exclude raw CSVs)
+# Uncomment if you want to exclude:
+# results/final_results.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Colab temp files
+/content/
+sample_data/
